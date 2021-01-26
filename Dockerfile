@@ -6,4 +6,7 @@ RUN apk --no-cache add \
         gcc \
         alpine-sdk \
         && \
-    pip3 install python-docx
+    pip3 install \
+        docxcompose \
+        logzero \
+        python-docx \
